@@ -1,4 +1,4 @@
-# Ignition Docker Project Template
+# MES Docker Project Template
 
 ___
 
@@ -37,7 +37,7 @@ ___
 	COMPOSE_PROJECT_NAME=<project-name>
 	```
 
-	or if you are using trafik as a reverse proxy, set the `.env` file to:
+	or if you are using traefik as a reverse proxy, set the `.env` file to:
 
 	```sh
 	COMPOSE_PATH_SEPARATOR=:
@@ -67,7 +67,7 @@ ___
 
 10. In a web browser, access the gateway at `http://localhost/` (No port is required, since the template is using port 80)
 
-11. If using trafik as a proxy, access the gateway at `http://<project-name>.localtest.me`
+11. If using traefik as a proxy, access the gateway at `http://<project-name>.localtest.me`
 
 ___
 
