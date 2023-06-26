@@ -28,7 +28,7 @@ ___
     ```
 
 4. Review the `docker-compose.yml` file to verify the container structure is correct
-5. If using a reverse proxy, go through the `docker-compose.traefik.yml` file and change all instances of `ignition-template` to your project name.
+5. If using a reverse proxy, go through the `docker-compose.traefik.yml` file and change all instances of `ignition-mes` to your project name.
 6. Review the `.gitignore` file to add any
    additional directories and contents to ignore.
 7. To name the compose project that will be built, edit the `.env` file and set the `COMPOSE_PROJECT_NAME` variable to the name of 	your project.
